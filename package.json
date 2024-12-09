@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "server": "node index.js",
+    "server": "node ./src/index.js",
     "predeploy": "npm run server",
     "deploy": "gh-pages -d build",
     "build": "react-app-rewired build",
