@@ -11,6 +11,7 @@ module.exports = override(
     'buffer': require.resolve('buffer'),
     'stream': require.resolve('stream'),
     'zlib': require.resolve('browserify-zlib'),
-    'assert': require.resolve('assert')
+    'assert': require.resolve('assert'),
+    "vm": require.resolve("vm-browserify"),
   })
 );

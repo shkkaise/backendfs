@@ -29,7 +29,8 @@
     "os": "^0.1.2",
     "react-scripts": "^5.0.1",
     "stream-browserify": "^3.0.0",
-    "util": "^0.12.5"
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2"
   },
   "browserslist": {
     "production": [

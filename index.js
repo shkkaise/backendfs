@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
-const port = process.env.PORT || 4500;
+const port = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
